@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Contact Us | Zapp</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header class="hdr"><div class="container"><a href="/" class="logo">⚡ Zapp</a><nav class="nav"><a href="/">Home</a><a href="about.html">About</a></nav><button class="menu-btn" onclick="toggleMenu()">☰</button></div></header>
+<div class="article-page">
+<h1>Contact Us</h1>
+<p>We read every message.</p>
+<h2>Email</h2>
+<ul><li>General: <strong>hello@yourdomain.com</strong></li><li>DMCA: <strong>dmca@yourdomain.com</strong></li><li>Advertising: <strong>ads@yourdomain.com</strong></li></ul>
+<h2>Send a Message</h2>
+<form style="max-width:480px" onsubmit="alert('Message sent! We will reply within 24 hours.');return false">
+<p><input type="text" placeholder="Your Name" required style="width:100%;padding:12px;background:var(--bg-alt);border:1px solid var(--border);border-radius:8px;color:var(--text);margin-bottom:10px;font-size:.9rem"></p>
+<p><input type="email" placeholder="Your Email" required style="width:100%;padding:12px;background:var(--bg-alt);border:1px solid var(--border);border-radius:8px;color:var(--text);margin-bottom:10px;font-size:.9rem"></p>
+<p><textarea placeholder="Your Message" rows="5" required style="width:100%;padding:12px;background:var(--bg-alt);border:1px solid var(--border);border-radius:8px;color:var(--text);margin-bottom:10px;resize:vertical;font-size:.9rem"></textarea></p>
+<p><button type="submit" style="background:var(--gradient);color:#fff;border:0;padding:12px 28px;border-radius:10px;font-weight:700;cursor:pointer;font-size:.9rem">Send Message</button></p>
+</form>
+<p style="margin-top:12px;color:var(--text-muted);font-size:.85rem">We typically reply within 24 hours.</p>
+</div>
+<footer class="footer"><div class="container"><div class="footer-bottom"><p>&copy; 2025 Zapp.</p></div></div></footer>
+<script src="../js/main.js"></script>
+</body>
+</html>
